@@ -50,10 +50,10 @@ namespace Practica_Arreglos
 				    varaux = "White Snake (Greatest Hits)";
 					break;
 				case 3:
-					varaux = "Hysteria";
+					varaux = "Deff Lepard (Hysteria)";
 					break;
 				case 4:
-					varaux = "Dark Side Of The Moon";
+					varaux = "Pink Floyd (Dark Side Of The Moon)";
 					break;
 			}
 		}
