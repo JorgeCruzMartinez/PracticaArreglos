@@ -41,7 +41,7 @@ namespace Practica_Arreglos
 			switch (counter)
 			{  
 				case 0:
-					varaux = "Best Of Van Halen Volumen 1";										
+					varaux = " Van Halen (Best Of Van Halen Volumen 1)";										
 					break;
 				case 1:
 				    varaux = "Billy Joel (Greatest Hits)";
@@ -50,10 +50,10 @@ namespace Practica_Arreglos
 				    varaux = "White Snake (Greatest Hits)";
 					break;
 				case 3:
-					varaux = "Hysteria";
+					varaux = "Deff Lepard (Hysteria)";
 					break;
 				case 4:
-					varaux = "Dark Side Of The Moon";
+					varaux = "Pink Floyd (Dark Side Of The Moon)";
 					break;
 			}
 		}
