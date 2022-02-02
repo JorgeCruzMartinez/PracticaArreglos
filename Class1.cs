@@ -41,7 +41,7 @@ namespace Practica_Arreglos
 			switch (counter)
 			{  
 				case 0:
-					varaux = "Best Of Van Halen Volumen 1";										
+					varaux = " Van Halen (Best Of Van Halen Volumen 1)";										
 					break;
 				case 1:
 				    varaux = "Billy Joel (Greatest Hits)";
