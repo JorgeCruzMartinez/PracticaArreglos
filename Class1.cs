@@ -17,21 +17,21 @@ namespace Practica_Arreglos
 		[STAThread]
 		static void Main()
 		{
-//			string []discos = new string []{"Best Of Van Halen Volumen 1","Billy Joel (Greatest Hits)","White Snake (Greatest Hits)","Hysteria","Dark Side Of The Moon"};
-//			Console.WriteLine (discos[0]);
-//			Console.WriteLine (discos[1]);
-//			Console.WriteLine (discos[2]);
-//			Console.WriteLine (discos[3]);
-//			Console.WriteLine (discos[4]);
-//			Console.ReadLine();
-			for (byte contador = 0;contador < 4;contador++)
-			{   
-				cadena = "discos[" + contador + "] = ";
-				AsignaValor(contador);
-				discos[contador] = cadena + varaux;
-			}
+            string[] discos = new string[] { "Best Of Van Halen Volumen 1", "Billy Joel (Greatest Hits)", "White Snake (Greatest Hits)", "Hysteria", "Dark Side Of The Moon" };
+            //Console.WriteLine(discos[0]);
+            //Console.WriteLine(discos[1]);
+            //Console.WriteLine(discos[2]);
+            //Console.WriteLine(discos[3]);
+            //Console.WriteLine(discos[4]);
+            //Console.ReadLine();
+            for (byte contador = 0; contador < 4; contador++)
+            {
+                cadena = "discos[" + contador + "] = ";
+                AsignaValor(contador);
+                discos[contador] = cadena + varaux;
+            }
 
-			for (byte contador = 0;contador < 4;contador++)
+            for (byte contador = 0;contador < 4;contador++)
 			{   
                 if (contador < 3)
                     Console.WriteLine (discos[contador]);
